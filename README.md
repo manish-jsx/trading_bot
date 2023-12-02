@@ -1,5 +1,4 @@
 
-```markdown
 # Cryptocurrency Trading Bot with Moving Average Crossover Strategy
 
 This Python script implements a basic cryptocurrency trading bot that uses a simple moving average crossover strategy. The bot connects to the Binance exchange, fetches historical price data, calculates moving averages, and executes buy/sell orders based on the crossover signals.
