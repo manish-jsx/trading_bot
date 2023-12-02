@@ -6,7 +6,7 @@ from trading_bot import run_trading_strategy
     ("BTC/USDT", "1h", 10, 30, 0.001),
     # Add more test cases as needed
 ])
-def test_trading_strategy(symbol, timeframe, fast_ma_period, slow_ma_period, quantity):
+def test_trading_strategy(monkeypatch, symbol, timeframe, fast_ma_period, slow_ma_period, quantity):
     # You might want to mock the ccxt library for testing purposes
     # For simplicity, let's assume fetch_ohlcv always returns the same data
     def mock_fetch_ohlcv(symbol, timeframe, limit=100):
