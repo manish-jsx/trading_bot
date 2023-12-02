@@ -1,4 +1,5 @@
 import pytest
+import pandas as pd
 from trading_bot import run_trading_strategy
 
 @pytest.mark.parametrize("symbol, timeframe, fast_ma_period, slow_ma_period, quantity", [
