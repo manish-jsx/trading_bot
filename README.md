@@ -22,7 +22,7 @@ Before running the script, make sure you have the following:
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourusername/cryptobot.git
+   git clone https://github.com/manish-jsx/trading_bot.git
    ```
 
 2. Navigate to the project directory:
@@ -31,7 +31,17 @@ Before running the script, make sure you have the following:
    cd cryptobot
    ```
 
-3. Open the `trading_bot.py` file in a text editor and replace the placeholder values with your Binance API key and secret.
+
+
+3. Install required packages:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+
+
+4. Open the `trading_bot.py` file in a text editor and replace the placeholder values with your Binance API key and secret.
 
    ```python
    'apiKey': 'YOUR_API_KEY',
